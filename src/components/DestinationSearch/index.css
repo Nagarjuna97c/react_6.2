@@ -1,0 +1,112 @@
+.main-container {
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: space-around;
+  padding: 8px;
+}
+
+.name-container-align {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  justify-content: center;
+  height: 200px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  margin: 3px;
+  padding-left: 15px;
+}
+
+.input {
+  color: #0f172a;
+  background-color: #f1f5f9;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  margin-left: 25px;
+  width: 300px;
+}
+
+.input-container {
+  display: flex;
+  background-color: #f1f5f9;
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  margin-left: 15px;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+}
+
+.heading-color {
+  color: #ffffff;
+}
+
+.button {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #000000;
+  padding: 8px 12px;
+  border-style: none;
+  border-radius: 8px;
+  background-color: #0b69ff;
+}
+
+.button-color {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.show-name-container {
+  background-color: #ffffff;
+  width: 100px;
+  height: 70px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.para {
+  text-align: start;
+  margin-left: 4px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 12px;
+  color: #333333;
+  margin: 1px;
+}
+
+.para1 {
+  color: #0b69ff;
+  font-size: 36px;
+}
